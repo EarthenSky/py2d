@@ -1,7 +1,12 @@
-import py2d
+from py2d import *
+f_debug = True  # Turn internal debug statements on
 
-print "hi"
+init_py2d( (400, 200) )  # Create a screen with size 200px by 200px
 
-py2d.init_py2d( (200, 200) )  # Create a screen with size 200px by 200px
+_fps = 10
 
-py2d.run_py2d()  # Call this at the end of the program to start logic.
+object.create_rect()
+
+run_py2d()  # Call this at the end of the program to start logic.
+
+# Don't write any code after running the game.
