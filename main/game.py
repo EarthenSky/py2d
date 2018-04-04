@@ -1,7 +1,7 @@
-from py2d import *
-f_debug = True  # Turn internal debug statements on
+import py2d
+py2d.f_debug = True  # Turn internal debug statements on
 
-init_py2d( (400, 200) )  # Create a screen with size 200px by 200px
+init_py2d( (200, 200) )  # Create a screen with size 200px by 200px
 
 _fps = 10
 
